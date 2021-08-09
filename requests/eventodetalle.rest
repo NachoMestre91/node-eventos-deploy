@@ -1,0 +1,25 @@
+/// ============= nuevo evento con detalles ============= ///
+
+POST http://localhost:4000/eventodetalles
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoiU0cxMjMiLCJpZCI6OCwiaWF0IjoxNjI4MTk0NTY1fQ.6tpXvkPhuvHp_pUu1XgknYJxkBBzOWfcoU1VozZqSCI
+
+ { 
+    "titulo":"Front",
+    "descripcion":"Feria frontend2",
+    "destacado":false,
+    "imagenUrl":"www.tiempodesanjuan.com", 
+    "localidad":"san juan",
+    "detalles":[
+        {
+            "fecha":"02/10/2021",
+            "hora":"21:00",
+            "precio":3000
+        },
+        {
+            "fecha":"02/08/2021",
+            "hora":"21:00",
+            "precio":3000
+        }
+    ]
+}

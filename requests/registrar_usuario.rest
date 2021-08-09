@@ -1,0 +1,24 @@
+
+/// ============= REGISTRAR USUARIO ============= ///
+
+POST http://localhost:4000/usuario
+Content-Type: application/json
+
+
+{
+    "nombre":"Sergio",
+    "apellido":"ledesma",
+    "usuario":"SG123",
+    "clave":"SGledesma"
+}
+
+###
+
+POST http://localhost:4000/usuario
+Content-Type: application/json
+
+
+{
+    "usuario":"NM123",
+    "clave":"nmestre123"
+}

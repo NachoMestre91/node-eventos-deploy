@@ -1,0 +1,27 @@
+/// ============= BUSQUEDA ============= ///
+
+GET http://localhost:4000/eventos
+Content-Type: application/json
+
+###
+
+
+GET http://localhost:4000/detalleseventos
+Content-Type: application/json
+
+###
+
+GET http://localhost:4000/usuarios
+Content-Type: application/json
+
+###
+
+GET http://localhost:4000/eventosdestacados
+Content-Type: application/json
+
+###
+
+GET http://localhost:4000/usuario/eventos/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoiU0cxMjMiLCJpZCI6OCwiaWF0IjoxNjI4MTk0Mzk3fQ.tsxDh3U9cJqUVtiM_HkNYQPSeLve9D71cE5QXk3dMk8
+
